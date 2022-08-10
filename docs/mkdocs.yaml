@@ -1,0 +1,16 @@
+site_name: test
+site_description: test
+site_author: ewassef
+repo_url: https://github.com/ewassef/test
+edit_uri: 'edit/main/docs'
+copyright: "© Vonage"
+docs_dir: "documentation"
+
+nav:
+  - Introduction: index.md
+
+markdown_extensions:
+  - pymdownx.snippets:
+      
+plugins:
+  - techdocs-core
